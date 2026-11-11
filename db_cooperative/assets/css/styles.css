@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.sidebar {
+    width: 220px;
+    min-height: 100vh;
+    background-color: #003205;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 12px;
+}
+
+.sidebar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-content {
+    flex: 1;
+    padding: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #003205;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.btn-outline {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid #000000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    max-width: 500px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="date"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #000000;
+}
+
+.alert-error {
+    border: 1px solid #000000;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
