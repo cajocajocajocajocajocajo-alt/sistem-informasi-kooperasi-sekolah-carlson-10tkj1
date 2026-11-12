@@ -8,6 +8,6 @@
 <body style="display: block; text-align: center; padding-top: 100px;">
     <h1>Sistem Informasi Koperasi Sekolah</h1>
     <p style="margin: 15px 0;">Aplikasi pengelolaan data produk, pemasok, dan karyawan.</p>
-    <a href="pages/products/index.php" class="btn">Masuk ke Data Koperasi</a>
+    <a href="login.php" class="btn">Masuk ke Data koperasi</a>
 </body>
 </html>

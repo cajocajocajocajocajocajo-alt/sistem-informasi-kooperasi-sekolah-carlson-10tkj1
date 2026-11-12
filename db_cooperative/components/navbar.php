@@ -5,5 +5,6 @@
         <li><a href="/sistem-informasi-koperasi-sekolah/db_cooperative/pages/products/index.php">Products</a></li>
         <li><a href="/sistem-informasi-koperasi-sekolah/db_cooperative/pages/supppliers/index.php">Suppliers</a></li>
         <li><a href="/sistem-informasi-koperasi-sekolah/db_cooperative/pages/employees/index.php">Employees</a></li>
+        <li style="margin-top: 30px;"><a href="/sistem-informasi-koperasi-sekolah/db_cooperative/logout.php">Logout</a></li>
     </ul>
 </div>
